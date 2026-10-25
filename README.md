@@ -90,4 +90,4 @@ See `sample_output.txt` for the complete output and `Project_Documentation.md` f
 
 ## Author
 
-Atul, B.Tech Electronics and Communication Engineering, Truba Science and Technology College, Bhopal (RGPV).
+Atul, B.Tech Electronics and Communication Engineering, Truba institute of engineering and information technology,Bhopal (RGPV).
