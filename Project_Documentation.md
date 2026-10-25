@@ -6,10 +6,10 @@
 
 | | |
 |---|---|
-| Student | Atul *(add your full name)* |
+| Student | Atul 
 | Program | B.Tech, Electronics and Communication Engineering (graduating 2027) |
-| College | Truba Science and Technology College, Bhopal (RGPV) |
-| Enrollment No. | *(add your enrollment number)* |
+| College | Truba institute of engineering and information technology, Bhopal (RGPV) |
+| Enrollment No. | 0114EC231002 |
 | Course | Python with AI, EWB Courses |
 
 ## 2. Objective
