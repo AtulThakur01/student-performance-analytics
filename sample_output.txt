@@ -1,0 +1,129 @@
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Number of records : 20
+Number of columns : 9
+Columns           : ['Student_ID', 'Name', 'Department', 'Python', 'Mathematics', 'Physics', 'Electronics', 'English', 'Attendance']
+Missing values    : 0
+
+First 5 records:
+Student_ID         Name Department  Python  Mathematics  Physics  Electronics  English  Attendance
+      S001 Aarav Sharma        ECE      88           79       82           91       75          92
+      S002  Priya Verma        CSE      95           91       87           84       89          96
+      S003  Rohan Patel         ME      62           58       66           54       70          81
+      S004  Sneha Gupta        ECE      78           72       69           80       83          88
+      S005 Vikram Singh         CE      45           38       52           41       60          68
+
+======================================================================
+2. STUDENT-WISE RESULT (Total, Average, Grade, Result)
+======================================================================
+Student_ID            Name Department  Total  Average Grade Result  Attendance Attendance_Status
+      S001    Aarav Sharma        ECE    415     83.0     A   Pass          92                OK
+      S002     Priya Verma        CSE    446     89.2     A   Pass          96                OK
+      S003     Rohan Patel         ME    310     62.0     B   Pass          81                OK
+      S004     Sneha Gupta        ECE    382     76.4    B+   Pass          88                OK
+      S005    Vikram Singh         CE    236     47.2     F   Fail          68          Shortage
+      S006   Anjali Mishra        CSE    449     89.8     A   Pass          97                OK
+      S007     Karan Yadav         EE    295     59.0     C   Pass          74          Shortage
+      S008      Neha Joshi        ECE    408     81.6     A   Pass          90                OK
+      S009   Aditya Tiwari         ME    252     50.4     C   Pass          79                OK
+      S010   Pooja Rathore         CE    357     71.4    B+   Pass          85                OK
+      S011    Manish Dubey         EE    212     42.4     F   Fail          62          Shortage
+      S012   Divya Chouhan        CSE    444     88.8     A   Pass          94                OK
+      S013    Saurabh Jain        ECE    341     68.2     B   Pass          83                OK
+      S014     Ritika Soni         ME    310     62.0     B   Pass          77                OK
+      S015   Harsh Malviya        CSE    390     78.0    B+   Pass          89                OK
+      S016    Kavya Pandey         EE    370     74.0    B+   Pass          91                OK
+      S017 Deepak Kushwaha         CE    258     51.6     C   Pass          71          Shortage
+      S018     Muskan Khan        ECE    458     91.6    A+   Pass          98                OK
+      S019    Ankit Saxena         ME    220     44.0     F   Fail          66          Shortage
+      S020    Shreya Bhatt        CSE    394     78.8    B+   Pass          87                OK
+
+======================================================================
+3. CLASS PERFORMANCE SUMMARY
+======================================================================
+Total students      : 20
+Class average       : 69.47
+Median average      : 72.7
+Standard deviation  : 15.83
+Highest average     : 91.6
+Highest scorer      : Muskan Khan
+Lowest average      : 42.4
+Lowest scorer       : Manish Dubey
+Average attendance  : 83.4
+
+======================================================================
+4. PASS / FAIL STATISTICS
+======================================================================
+Passed          : 17
+Failed          : 3
+Pass percentage : 85.0%
+(Pass rule: at least 40 marks in every subject)
+
+Failed students:
+Student_ID         Name  Average
+      S005 Vikram Singh     47.2
+      S011 Manish Dubey     42.4
+      S019 Ankit Saxena     44.0
+
+======================================================================
+5. GRADE DISTRIBUTION
+======================================================================
+Grade
+A+    1
+A     5
+B+    5
+B     3
+C     3
+D     0
+F     3
+
+======================================================================
+6. SUBJECT-WISE PERFORMANCE (best subject first)
+======================================================================
+    Subject  Average  Highest  Lowest  Pass %
+    English    73.60       94      50   100.0
+Electronics    69.85       95      41   100.0
+     Python    69.15       95      36    95.0
+Mathematics    67.40       93      35    90.0
+    Physics    67.35       92      39    95.0
+
+Best subject  : English (average 73.6)
+Weakest subject: Physics (average 67.35)
+
+======================================================================
+7. TOP 5 PERFORMING STUDENTS
+======================================================================
+ Rank Student_ID          Name Department  Total  Average Grade
+    1       S018   Muskan Khan        ECE    458     91.6    A+
+    2       S006 Anjali Mishra        CSE    449     89.8     A
+    3       S002   Priya Verma        CSE    446     89.2     A
+    4       S012 Divya Chouhan        CSE    444     88.8     A
+    5       S001  Aarav Sharma        ECE    415     83.0     A
+
+======================================================================
+8. DEPARTMENT-WISE ANALYSIS
+======================================================================
+            Students  Avg_Marks  Avg_Attendance  Passed
+Department                                             
+CSE                5      84.92           92.60       5
+ECE                5      80.16           90.20       5
+EE                 3      58.47           75.67       2
+CE                 3      56.73           74.67       2
+ME                 4      54.60           75.75       3
+
+======================================================================
+9. ATTENDANCE ALERT (below 75%)
+======================================================================
+Student_ID            Name  Attendance
+      S005    Vikram Singh          68
+      S007     Karan Yadav          74
+      S011    Manish Dubey          62
+      S017 Deepak Kushwaha          71
+      S019    Ankit Saxena          66
+
+======================================================================
+ANALYSIS COMPLETE
+======================================================================
+Full results saved to: student_results.csv
